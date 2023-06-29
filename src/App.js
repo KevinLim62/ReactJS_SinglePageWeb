@@ -6,15 +6,15 @@ function App() {
     <>
     <head>
       <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZRBJYF2E31"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZRBJYF2E31"><script/>
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
       
         gtag('config', 'G-ZRBJYF2E31');
-      </script>
-    </head>
+      <script/>
+    <head/>
 
     <NagivationBar />
     <ContentBar />
