@@ -10,7 +10,7 @@ useEffect(() => {
   script.src = "https://www.googletagmanager.com/gtag/js?id=G-ZRBJYF2E31";
   script.async = true;
   script.onload = () => {
-    window.dataLayer = window.dataLayer || [];
+   const window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
   
